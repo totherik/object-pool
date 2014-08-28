@@ -1,0 +1,26 @@
+{
+  "name": "object-pool",
+  "version": "0.0.0",
+  "description": "A general pool for objects",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "debuglog": "^1.0.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.2.10",
+    "tape": "^2.13.3"
+  },
+  "scripts": {
+    "test": "tape test/*.js",
+    "cover": "istanbul cover tape -- test/*.js"
+  },
+  "keywords": [
+    "object",
+    "pool"
+  ],
+  "author": "Erik Toth <totherik@gmail.com>",
+  "license": "ISC"
+}
